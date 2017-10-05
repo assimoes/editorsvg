@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Free transform tool for Snap.svg elements</title>
+        <style type="text/css">
+            #main-container {
+                position: fixed;
+                background-color: #ddd;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <svg id="main-container">
+            <path id="t1" d="M150 0 L75 200 L225 200 Z" />
+            <rect id="r1" width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+            <path id="t2" d="M250 0 L150 200 L225 200 Z" style="fill: green" />
+        </svg>
+        <script src="snap.svg-min.js"></script>
+        <script src="snap.svg.free_transform.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
