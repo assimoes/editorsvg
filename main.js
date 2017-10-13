@@ -15,6 +15,9 @@ selected = [t1,t2];
 // paper.freeTransform(selection);
 var set = Snap.set(Snap(t1),Snap(t2));
 
+//paper.freeTransform(set);
+// paper.freeTransform(Snap(t1));
+// paper.freeTransform(Snap(t2));
 paper.freeTransform(set);
 
 set.clear();
